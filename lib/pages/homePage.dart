@@ -8,21 +8,23 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Example plant data with proxy to bypass CORS
     final List<Map<String, String>> plants = [
       {
         'name': 'Monstera Deliciosa',
-        'image': 'https://corsproxy.io/?https://images.unsplash.com/photo-1616627455152-fdd8a1e3d9f3?auto=format&fit=crop&w=400&q=60',
+        'image':
+            'https://images.unsplash.com/photo-1616627455152-fdd8a1e3d9f3?auto=format&fit=crop&w=400&q=60',
         'location': 'Central America'
       },
       {
         'name': 'Snake Plant',
-        'image': 'https://corsproxy.io/?https://images.unsplash.com/photo-1598620617135-5b8b40f0b0b8?auto=format&fit=crop&w=400&q=60',
+        'image':
+            'https://images.unsplash.com/photo-1598620617135-5b8b40f0b0b8?auto=format&fit=crop&w=400&q=60',
         'location': 'West Africa'
       },
       {
         'name': 'Peace Lily',
-        'image': 'https://corsproxy.io/?https://images.unsplash.com/photo-1587502536263-1f6e3b8c4b1d?auto=format&fit=crop&w=400&q=60',
+        'image':
+            'https://images.unsplash.com/photo-1587502536263-1f6e3b8c4b1d?auto=format&fit=crop&w=400&q=60',
         'location': 'Tropical Americas'
       },
     ];
@@ -52,8 +54,20 @@ class HomePage extends StatelessWidget {
                     width: 60,
                     height: 60,
                     fit: BoxFit.cover,
-                    errorBuilder: (context, error, stackTrace) =>
-                        const Icon(Icons.image_not_supported, size: 60),
+                    loadingBuilder: (context, child, progress) {
+                      if (progress == null) return child;
+                      return const SizedBox(
+                        width: 60,
+                        height: 60,
+                        child: Center(
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        ),
+                      );
+                    },
+                    errorBuilder: (context, error, stackTrace) {
+                      print('Error loading image: $error');
+                      return const Icon(Icons.image_not_supported, size: 60);
+                    },
                   ),
                 ),
                 title: Text(
