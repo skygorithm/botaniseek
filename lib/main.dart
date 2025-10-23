@@ -1,7 +1,6 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'pages/homePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,51 +17,31 @@ class MyApp extends StatelessWidget {
         title: 'BotaniSeek',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreenAccent),
+          useMaterial3: true,
         ),
         home: const HomePage(title: 'BotaniSeek'),
-      )
+        debugShowCheckedModeBanner: false,
+      ),
     );
   }
 }
 
 class MyAppState extends ChangeNotifier {
+  // Example app-wide states
+  final List<Map<String, String>> _favoritePlants = [];
 
-}
+  List<Map<String, String>> get favoritePlants => _favoritePlants;
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key, required this.title});
+  void toggleFavorite(Map<String, String> plant) {
+    if (_favoritePlants.contains(plant)) {
+      _favoritePlants.remove(plant);
+    } else {
+      _favoritePlants.add(plant);
+    }
+    notifyListeners();
+  }
 
-  final String title;
-
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  @override
-  Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.lightGreenAccent,
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('Welcome to BotaniSeek!'),
-
-            ElevatedButton(
-              onPressed: () => {
-                log('button pressed!')
-              },
-              child: Text('Click Here'),
-            ),
-          ],
-        ),
-      ),
-    );
+  bool isFavorite(Map<String, String> plant) {
+    return _favoritePlants.contains(plant);
   }
 }
