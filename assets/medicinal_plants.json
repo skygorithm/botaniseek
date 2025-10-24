@@ -1,0 +1,450 @@
+{
+  "plants": [
+    {
+      "name": "Abang-Abang",
+      "scientific_name": "Aralia excelsa Linden",
+      "location": [
+        "Morong, Bataan Province",
+        "Mt. Banahaw, Dolores, Quezon Province"
+      ],
+      "coordinates": [
+        {
+          "lat": 14.715,
+          "lon": 120.333
+        },
+        {
+          "lat": 14.063158,
+          "lon": 121.452533
+        }
+      ],
+      "properties": [
+        "Considered vulnerary, antidiarrheal, antihypertensive.",
+        "Studies have shown antioxidant, antitumor, antihypertensive, anticonvulsant, analgesic, anti-inflammatory, anxiolytic, antimicrobial, antifungal properties."
+      ],
+      "uses": [
+        "Used for treatment of enlarged spleen in children, pregnancy detection, toothache, gonorrhea, diarrhea, dysentery. Also used as diuretic.",
+        "Decoction of roots, branches and leaves used for wound healing."
+      ],
+      "image": "assets/images/abang_abang.jpg"
+    },
+    {
+      "name": "Abaca",
+      "scientific_name": "Musa abaca Perr.",
+      "location": [
+        "Catanduanes, Bicol Region",
+        "Davao Oriental, Caraga Region (Agusan del Norte)"
+      ],
+      "coordinates": [
+        {
+          "lat": 13.716,
+          "lon": 124.100
+        },
+        {
+          "lat": 7.000,
+          "lon": 126.200
+        },
+        {
+          "lat": 8.947,
+          "lon": 125.540
+        }
+      ],
+      "properties": [
+        "Considered the strongest of natural fibers, durable, resistant to salt water damage, and completely biodegradable. (4)",
+        "Study has suggest hypoglycemic property."
+      ],
+      "uses": [
+        "Leaf stem and flowers used to treat wounds and reduce blood pressure.",
+        "Sap used on wounds to induce blood clotting.",
+        "Inner part of the pseudostem is wrapped around bruises or small cuts to stop bleeding and to improve healing."
+      ],
+      "image": "assets/images/abaca.jpg"
+    },
+    {
+      "name": "Akapulko",
+      "scientific_name": "Cassia alata var. perennis Pamp.",
+      "location": [
+        "Quezon City (urban gardens)",
+        "Los Baños, Laguna",
+        "Iloilo Province"
+      ],
+      "coordinates": [
+        {
+          "lat": 14.676,
+          "lon": 121.043
+        },
+        {
+          "lat": 14.170,
+          "lon": 121.243
+        },
+        {
+          "lat": 10.720,
+          "lon": 122.562
+        }
+      ],
+      "properties": [
+        "Propagated rapidly by seeds (dispersed by waters) or stem cuttings. Basal stem may produce coppices (suckers).",
+        "Seeds from mature pods can be collected during the season and immediately planted or stored for six months.",
+        "Saponin acts as a laxative and expels intestinal parasites.",
+        "Its fungicide property derives from chrysophanic acid.",
+        "Plant considered alterative, astringent, abortifacient, aperient, expectorant, purgative, sudorific, hydragogue, diuretic, vermifuge.",
+        "Studies have suggested antifungal, antidermatophytic, analgesic, antimicrobial, antiseptic, purgative, anti-inflammatory, hepatoprotective, weight-reducing, immune-stimulating, antioxidant, laxative, antidiabetic, hypolipidemic, antimalarial, antipyretic, cytotoxic, chondroprotective, anti-cancer properties."
+      ],
+      "uses": [
+        "The seeds used for intestinal parasitism.",
+        "Tincture from leaves reported to be purgative.",
+        "Decoction of leaves and flowers for cough and as expectorant in bronchitis and asthma. Also used as astringent."
+      ],
+      "image": "assets/images/akapulko.jpg"
+    },
+    {
+      "name": "Gemegebal (Crab Grass)",
+      "scientific_name": "Digitaria aegyptica Willd.",
+      "location": [
+        "Batac, Ilocos Norte",
+        "Nueva Ecija (rice fields)",
+        "Davao City (roadsides)"
+      ],
+      "coordinates": [
+        {
+          "lat": 18.055,
+          "lon": 120.564
+        },
+        {
+          "lat": 15.583,
+          "lon": 121.000
+        },
+        {
+          "lat": 7.190,
+          "lon": 125.455
+        }
+      ],
+      "properties": [],
+      "uses": [
+        "Seeds may be ground up and used as flour. The fine white flour can be used for semolina.",
+        "Compared to other grains, it has relatively high protein content."
+      ],
+      "image": "assets/images/crab_grass.jpg"
+    },
+    {
+      "name": "Cujete (Kalabas, Kalbas)",
+      "scientific_name": "Crescentia arborea Raf.",
+      "location": [
+        "San Fernando, Pampanga",
+        "Cebu City",
+        "Zamboanga City"
+      ],
+      "coordinates": [
+        {
+          "lat": 15.033,
+          "lon": 120.683
+        },
+        {
+          "lat": 10.315,
+          "lon": 123.885
+        },
+        {
+          "lat": 6.917,
+          "lon": 122.083
+        }
+      ],
+      "properties": [
+        "Fruit considered aperient, laxative, expectorant.",
+        "Considered anthelmintic, analgesic, anti-inflammatory, febrifuge, laxative.",
+        "Studies have suggested antibacterial, antifungal, antidiabetic, snake venom neutralizing, anti-angiogenic, CNS depressant, antimycobacterial, anti-inflammatory, cytotoxic, wound healing, anti-platelet aggregation, anthelmintic properties."
+      ],
+      "uses": [
+        "Young fruit reportedly pickled, but pulp is poisonous. and seeds are poisonous.",
+        "Some publications consider the fruit not edible for humans, cautioning on the presence of tetracyclic triterpenoid cucurbitacin, which has been reported to cause stomach ulcers.",
+        "Seeds also poisonous if consumed raw. Cooked seeds used to make a beverage. A syrup and confection (carabobo) is made from the seed. Seeds used to make a syrup, ground finely and mixed with sugar and a little water, then boiled. Roasted seeds, combined with roasted wheat, used as aromatic and flavorful coffee substitute. (56)",
+        "Medicinal tea is made from leaves. Leaves are cooked and used in soups."
+      ],
+      "image": "assets/images/cujete.jpg"
+    },
+    {
+      "name": "Agoago",
+      "scientific_name": "Dendrophthoe farinosa (Desr.) Mart.",
+      "location": [
+        "Mt. Makiling",
+        "Puerto Princesa",
+        "Samar Island"
+      ],
+      "coordinates": [
+        {
+          "lat": 14.146,
+          "lon": 121.242
+        },
+        {
+          "lat": 9.739,
+          "lon": 118.735
+        },
+        {
+          "lat": 11.775,
+          "lon": 125.000
+        }
+      ],
+      "properties": [
+        "Considered antioxidant, antidiabetic, antihypertensive.",
+        "Studies have suggested antibacterial, antihypertensive, spasmolytic, antioxidant, antidiabetic, anticancer, hepatoprotective, anti-inflammatory, immunomodulatory, antiproliferative, antiapoptotic, antihypertensive, antiviral properties."
+      ],
+      "uses": [
+        "Poultice of pounded leaves used for small sores and ulcers.",
+        "Juice of leaves used for wound healing, skin infection, and cancer."
+      ],
+      "image": "assets/images/agoago.jpg"
+    },
+    {
+      "name": "Agoho",
+      "scientific_name": "Casuarina equisetifolia var. typica Domin",
+      "location": [
+        "Agoo, La Union",
+        "Subic Bay, Zambales",
+        "Bagac, Bataan"
+      ],
+      "coordinates": [
+        {
+          "lat": 16.322,
+          "lon": 120.365
+        },
+        {
+          "lat": 14.833,
+          "lon": 120.283
+        },
+        {
+          "lat": 14.600,
+          "lon": 120.400
+        }
+      ],
+      "properties": [
+        "Resembles a pine tree in appearance.",
+        "Considered antidiarrheal, anticancer, antibacterial, antifungal.",
+        "Bark considered astringent, emmenagogue, ecbolic and tonic.",
+        "Phytosterols from leaves considered antibacterial, hypoglycemic, antifungal, molluscicidal, cytotoxic.",
+        "Seeds considered anthelmintic, antispasmodic and antidiabetic.",
+        "Studies have suggested antibacterial, antifungal, antioxidant, antidiabetic, hypolipidemic, antiasthmatic, anticariogenic, nephroprotective, phytoremediative, anti-inflammatory, hepatoprotective properties."
+      ],
+      "uses": [
+        "Infusion of branches used as diuretic.",
+        "Leaves used for colic.",
+        "Bark used as astringent.",
+        "Bark decoction used as emmenagogue; in large doses, an ecbolic.",
+        "Used for stomach aches, diarrhea, dysentery and nervous disorders.",
+        "Decoction of bark used for hemoptysis.",
+        "Used for cough, asthma, and diabetes.",
+        "Seeds are roasted for salt.",
+        "Leaves and green fruit chewed to stimulate salivation to quench thirst."
+      ],
+      "image": "assets/images/agoho.jpg"
+    },
+    {
+      "name": "Ahito",
+      "scientific_name": "Tagetes elongata Willd.",
+      "location": [
+        "La Trinidad, Benguet",
+        "Baguio City",
+        "Sagada, Mountain Province"
+      ],
+      "coordinates": [
+        {
+          "lat": 16.455,
+          "lon": 120.588
+        },
+        {
+          "lat": 16.402,
+          "lon": 120.596
+        },
+        {
+          "lat": 17.083,
+          "lon": 120.900
+        }
+      ],
+      "properties": [
+        "Considered anthelmintic, aromatic, digestive, ophthalmic, sedative, stomachic, tonic, carminative, emmenagogue.",
+        "Roots considered laxative.",
+        "Studies have suggested antioxidant, analgesic, wound healing, keratolytic, anti-inflammatory, antioxidant, insecticidal, antidiabetic, elastase and tyrosinase inhibitory, antifungal, anxiolytic, sedative, antidepressant, antinociceptive, bioinsecticidal properties."
+      ],
+      "uses": [
+        "A plant of medicinal use since prehistoric times.",
+        "Used for anemia. irregular menstruation, abdominal pain during menstrual period, rheumatic muscular and bone pain.",
+        "Leaves applied to boils and carbuncles; juice used for earaches.",
+        "Internally, used for indigestion, colic, severe constipation, coughs and dysentery.",
+        "Externally, used for sores, ulcers, eczema, sore eyes and rheumatism.",
+        "Decoction of flowers used for colds, conjunctivitis, mumps, sore eyes.",
+        "Decoction preparation for coughs: Boil a handful of the herb in a liter of water and drink a glass 3x daily."
+      ],
+      "image": "assets/images/ahito.jpg"
+    },
+    {
+      "name": "Dayap",
+      "scientific_name": "Citrus x javanica Blume",
+      "location": [
+        "Dayap, Laguna",
+        "San Jose, Occidental Mindoro",
+        "Lucban, Quezon"
+      ],
+      "coordinates": [
+        {
+          "lat": 14.178,
+          "lon": 121.338
+        },
+        {
+          "lat": 12.352,
+          "lon": 121.067
+        },
+        {
+          "lat": 14.113,
+          "lon": 121.553
+        }
+      ],
+      "properties": [
+        "Juice is regarded as antiseptic, tonic, antiscorbutic, astringent, diuretic.",
+        "Root bark is febrifuge."
+      ],
+      "uses": [
+        "Makes a pleasant ade.",
+        "Used as substitute for true lemon.",
+        "Good source of vitamin C.",
+        "In Malaya, the young dayap is preserved in syrup.",
+        "Malays salt the fruit or preserve it in vinegar for use as pickle."
+      ],
+      "image": "assets/images/dayap.jpg"
+    },
+    {
+      "name": "Dapdap (Dap-Dap)",
+      "scientific_name": "Corallodendron lithospermum (Blume ex Miq.) Kuntze",
+      "location": [
+        "Paniqui, Tarlac",
+        "Dolores, Eastern Samar",
+        "Compostela, Cebu"
+      ],
+      "coordinates": [
+        {
+          "lat": 15.637,
+          "lon": 120.558
+        },
+        {
+          "lat": 12.062,
+          "lon": 125.488
+        },
+        {
+          "lat": 10.467,
+          "lon": 123.950
+        }
+      ],
+      "properties": [
+        "Studies have suggest antibacterial, antifungal, anti-inflammatory, antidiabetic, antiplasmodial, antimycobacterial, cytotoxicity, insulin-resistance decreasing, antioxidant, anti-acne, anti-obesity, sun protective, antipyretic properties."
+      ],
+      "uses": [
+        "Bark decoction drunk for afflictions of the spleen."
+      ],
+      "image": "assets/images/dapdap.jpg"
+    },
+    {
+      "name": "Latok",
+      "scientific_name": "Caulerpa lentillifera",
+      "location": [
+        "Batac, Ilocos Norte",
+        "Puerto Princesa, Palawan",
+        "Digos, Davao del Sur"
+      ],
+      "coordinates": [
+        {
+          "lat": 18.055,
+          "lon": 120.564
+        },
+        {
+          "lat": 9.739,
+          "lon": 118.735
+        },
+        {
+          "lat": 6.750,
+          "lon": 125.350
+        }
+      ],
+      "properties": [
+        "Reports of fresh leaves and stems being poisonous to pigs.",
+        "Considered anti-tussive, expectorant, hypoglycemic.",
+        "Studies have suggested antioxidant, hypoglycemic, radical scavenging, sweetening, antimicrobial properties."
+      ],
+      "uses": [
+        "Flowers and immature fruit rinds are eaten cooked.",
+        "Pericarp is cooked and eaten as vegetable, with the consistency and taste of string beans.",
+        "In Albay, fresh leaves and stems have been reported to be poisonous to pigs.",
+        "In Ilocos Norte, immature fruit (padpadol) used for making dinengdeng.",
+        "Clustered inflorescence eaten as vegetable, sautéed and eaten with rice.",
+        "Young fruits are grilled and paired with bagoong."
+      ],
+      "image": "assets/images/latok.jpg"
+    },
+    {
+      "name": "Laua-laua",
+      "scientific_name": "Paspalum bicrurum Salzm.",
+      "location": [
+        "Los Baños, Laguna",
+        "Iloilo City",
+        "Malaybalay, Bukidnon"
+      ],
+      "coordinates": [
+        {
+          "lat": 14.170,
+          "lon": 121.243
+        },
+        {
+          "lat": 10.720,
+          "lon": 122.562
+        },
+        {
+          "lat": 8.157,
+          "lon": 125.127
+        }
+      ],
+      "properties": [
+        "Studies have suggested antifungal, fatty acid synthase inhibitory, antibacterial, hypoglycemic, antioxidant, phytoremediative properties."
+      ],
+      "uses": [
+        "Decoction of fresh roots are taken internally for diarrhea.",
+        "Manobo tribes of Agusan del Sur drink decoction of leaves three times daily for fever and urinary tract infections."
+      ],
+      "image": "assets/images/laua_laua.jpg"
+    },
+    {
+      "name": "Gabi",
+      "scientific_name": "Arum esculentum Linn.",
+      "location": [
+        "Baybay, Leyte",
+        "Camalig, Albay",
+        "Davao City"
+      ],
+      "coordinates": [
+        {
+          "lat": 10.682,
+          "lon": 124.800
+        },
+        {
+          "lat": 13.133,
+          "lon": 123.667
+        },
+        {
+          "lat": 7.190,
+          "lon": 125.455
+        }
+      ],
+      "properties": [
+        "Leaves and petioles are excellent to taste, also rich in minerals.",
+        "Leaf juice considered expectorant, astringent, styptic, stimulant, rubifacient.",
+        "Juice of corm is considered laxative, demulcent and anodyne.",
+        "Tubers are digestive, laxative, diuretic, lactagogue, and styptic.",
+        "Pressed juice of petioles are styptic.",
+        "Acridity of leaves, petioles and tubers is due to raphides which easily disappear on boiling or cooking. These crystals may cause irritation.",
+        "Studies have suggested analgesic, anti-inflammatory, anti-cancer, hypolipidemic properties."
+      ],
+      "uses": [
+        "Prized for its large corms or underground stems, used as staple food in many localities.",
+        "Fresh edible leaves and petioles are a rich source of protein, ascorbic acid, dietary fiber, and some important minerals.",
+        "The corms, petioles and leaf blades are good sources of vitamin B.",
+        "To the early Hawaiians, grown mainly for poi production.",
+        "Its easy digestibility makes it a great nutritional supplement for weight gain needs in cancer-cachexia, AIDS, pancreatitis and a miscellany of weight-loss conditions."
+      ],
+      "image": "assets/images/gabi.jpg"
+    }
+  ]
+}
